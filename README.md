@@ -1,10 +1,13 @@
 고급 프로그래밍 과제 - 타자연습, 산성비 게임
 
-curses.h
+game.c = 참조코드
+
+gcc -o game game_mine.c -lpthread
+./game
+
+curses.h 사용 한다면
   - apt-get install libncurses5-dev libncursesw5-dev ( 설치 )
   - gcc 컴파일시에 -lncurses 추가할 것
-
-
 
 필요 기능
  - 메뉴 출력, 선택
