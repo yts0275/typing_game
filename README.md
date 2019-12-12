@@ -1,7 +1,6 @@
 고급 프로그래밍 과제 - 산성비 게임
 
 gcc -o game game_mine.c -lpthread
-./game
 
 curses.h 사용 한다면
   - apt-get install libncurses5-dev libncursesw5-dev ( 설치 )
