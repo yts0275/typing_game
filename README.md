@@ -1,7 +1,5 @@
 고급 프로그래밍 과제 - 산성비 게임
 
-game.c = 참조코드
-
 gcc -o game game_mine.c -lpthread
 ./game
 
